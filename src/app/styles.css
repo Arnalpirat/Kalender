@@ -1,0 +1,116 @@
+*{
+    font-family: 'Kaushan Script', cursive;
+    margin: 10px 15px 10px 15px;
+    padding: 4px 4px 4px 4px;
+    overflow: hidden;
+}
+
+.flex-container{
+    background-color: pink;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+header{
+    width: 99,5%;
+    background-color: green;
+    height: 25%;
+    top: 0px;
+    text-align: center;
+
+}
+
+header h1{
+    font-size: 400% ;
+}
+.flex-container-Ansicht{
+    background-color: purple;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.flex-row-Ansicht{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+  }
+
+.AnsichtW{
+    text-align: inline;
+    background-color: yellow;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.AnsichtWButton{
+    padding: 0;
+    border: none;
+    background: none;
+    padding-left: 200 px;
+}
+
+nav{
+    flex: 1;
+}
+
+
+
+main{
+    height: 50%;
+    flex:10;
+}
+
+.flex-row{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.flex-box{
+    flex: 1;
+    height: 100%;
+    text-align: center;
+    background-color: yellow;
+    font-size: 550%;
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+a:hover{
+    color: black;
+}
+
+.door span{
+    display: inline;
+}
+
+.door img{
+    display: none;
+    width: 1em;
+    height: 1em;
+}
+
+aside{
+    flex: 1;
+}
+
+footer{
+    background-color: pink;
+    width: 99,5%;
+    height: 25%;
+    bottom: 0px;
+}
